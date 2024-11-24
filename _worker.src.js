@@ -5,14 +5,13 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/back20/WorkerVless2sub/main/addressesapi.txt?proxyip=true', //可参考内容格式 自行搭建。
-	'https://raw.githubusercontent.com/back20/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://raw.githubusercontent.com/back20/linksub/main/addressesapi.txt?proxyip=true', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/back20/linksub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
@@ -29,7 +28,7 @@ let addressesnotlsapi = [
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/back20/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/back20/linksub/main/addressescsv.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -45,7 +44,7 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io#HK',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
-let socks5DataURL = '';//'https://raw.githubusercontent.com/back20/WorkerVless2sub/main/socks5Data'
+let socks5DataURL = '';//'https://raw.githubusercontent.com/back20/linksub/main/socks5Data'
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [//本地代理域名池
